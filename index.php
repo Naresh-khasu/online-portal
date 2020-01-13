@@ -1,51 +1,3 @@
-<!--<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
-
-<body>
-    <div class="head-wrapper">
-        <div class="advertisement">
-            <img src="https://www.genesiswtech.com/wp-content/uploads/2020/01/NMB-Monk_Nari-1140x90_1.gif">
-        </div>
-
-        <header class="header">
-            <a class="logo">online portal</a>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label for="menu-btn" class="menu-icon">
-            <span class="nav-icon"></span>
-        </label>
-            <ul class="menu">
-                <li><a>home</a></li>
-                <li><a>politics</a></li>
-                <li><a>business</a></li>
-                <li><a>interview</a></li>
-                <li><a>lifestyle</a></li>
-                <li><a>travel</a></li>
-            </ul>
-        </header>
-        <div class="breaking-news">
-            <h3>Breaking News</h3>
-        </div>
-    </div>
-
-    <div class="container">
-
-        <div>
-            <img src="1.jpg" alt="Card image cap">
-        </div>
-    </div>
-    <?php include('footer.php'); ?>
-</body>
-
-</html>-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="index.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assests/css/style.css">
     <title>Document</title>
 </head>
 
 <body>
     <!--header-->
+
     <header>
         <!--top ad space-->
         <div class="header-top">
@@ -67,7 +21,7 @@
                     <div class="column-30">
                         <div class="logo">
                             <a href="#">
-                                <img src="https://www.onlinekhabar.com/wp-content/themes/onlinekhabar-2018/img/logoMain.png" alt="logo" class="responsive-image">
+                                <img src="logo.png" alt="logo" class="responsive-image">
                             </a>
                         </div>
                     </div>
@@ -78,39 +32,48 @@
             </div>
         </div>
         <!--navigation-->
-        <nav>
+        <nav id="navbar">
+
             <ul>
-                <li> <a href="#">home</a></li>
-                <li> <a href="#">about</a></li>
-                <li> <a href="#">politics</a></li>
-                <li> <a href="#">business</a></li>
-                <li> <a href="#">sports</a></li>
-                <li> <a href="#">entertainment</a></li>
+                <li>
+                    <a href="#" class="fa fa-home fa-lg active" aria-hidden="true"></a>
+                </li>
+                <li> <a href="#">राजनीति</a></li>
+                <li> <a href="#">कला</a></li>
+                <li> <a href="#">खेल</a></li>
+                <li> <a href="#">विश्व</a></li>
+                <li> <a href="#">स्वास्थ्य</a></li>
+                <li><a href="#">अन्तर्वार्ता</a>
+                </li>
+                <li><a href="category/video/">भिडियो</a></li>
             </ul>
         </nav>
-        <!--breaking news-->
-        <div class="breaking-news">
-            <div class="container">
-                <div class="row">
-                    <div class="column-20">
-                        <div class="update-left"> UPDATES</div>
-                    </div>
-                    <div class="column-80">
-                        <div class="update-right"></div>
-                        <marquee>Towards digital Nepal: Enabling citizen scientists of remote districts to map their location</marquee>
+        <div class="content">
+            <!--breaking news-->
+            <div class="breaking-news">
+                <div class="container">
+                    <div class="row">
+                        <div class="column-20">
+                            <div class="update-left"> UPDATES</div>
+                        </div>
+                        <div class="column-80">
+                            <div class="update-right"></div>
+                            <marquee>ए डिभिजन लिगमा फ्रेन्डस क्‍लबको पहिलो जीत, थ्रीस्टार पराजित</marquee>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </header>
     <!--content-->
+
     <div class="content ptb-25">
         <!--headlines-->
         <div class="container">
             <div class="row">
                 <div class="column-60">
-                    <div class="main-headline" style="background-image:url(1.jpg)">
-                        <div class="headline">hello this is headlines</div>
+                    <div class="main-headline" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_460_300/uploads/media/TrumpKim_20191112081357.jpg)">
+                        <div class="headline">
+                            किमलाई ट्रम्पको ‘जन्मदिन शुभकामना’</div>
 
                     </div>
                 </div>
@@ -121,14 +84,14 @@
                         <div class="side-news">
                             <div class="row">
                                 <div class="column-40">
-                                    <div class="side-news-image" style="background-image:url(1.jpg)">
+                                    <div class="side-news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_996_491/uploads/media/hijoaja_20191020164942.jpg)">
 
                                     </div>
                                 </div>
                                 <div class="column-60">
                                     <div class="side-news-data">
-                                        <h2>news title</h2>
-                                        <p>Towards digital Nepal: Enabling citizen scientists of remote districts to map their location</p>
+                                        <h2>तिन दिनअघि पक्राउ परेका </h2>
+                                        <p>तिन दिनअघि पक्राउ परेका उदयपुरका युवा सञ्जाल अध्यक्ष सुरेश गुप्तालाई अदालतबाट</p>
                                     </div>
                                 </div>
                             </div>
@@ -137,13 +100,13 @@
                         <div class="side-news">
                             <div class="row">
                                 <div class="column-40">
-                                    <div class="side-news-image" style="background-image:url(1.jpg)">
+                                    <div class="side-news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_996_491/uploads/media/kusumkhadka_20191216125821.jpg)">
 
                                     </div>
                                 </div>
                                 <div class="column-60">
                                     <div class="side-news-data">
-                                        <h2>news title</h2>
+                                        <h2>स्वर्ण जितेपछि आमाको अनुहार हेरिरहें</h2>
                                         <p>Towards digital Nepal: Enabling citizen scientists of remote districts to map their location</p>
                                     </div>
                                 </div>
@@ -153,13 +116,14 @@
                         <div class="side-news">
                             <div class="row">
                                 <div class="column-40">
-                                    <div class="side-news-image" style="background-image:url(1.jpg)">
+                                    <div class="side-news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_460_300/uploads/media/Kabita_20200112091342.jpg)">
 
                                     </div>
                                 </div>
                                 <div class="column-60">
                                     <div class="side-news-data">
-                                        <h2>news title</h2>
+                                        <h2>एपिएफ र न्यु डायमन्डबीच नै उपाधि भिडन्त प्रतियोगिता
+                                        </h2>
                                         <p>Towards digital Nepal: Enabling citizen scientists of remote districts to map their location</p>
                                     </div>
                                 </div>
@@ -173,13 +137,14 @@
             <div class="row">
                 <div class="column-70">
                     <!--trending news-->
-                    <div class="sec-title"> News On Trending</div>
+                    <div class="sec-title"> प्रचलित</div>
                     <div class="row">
+
                         <!--1-->
                         <div class="column-33">
                             <div class="news">
-                                <div class="news-image" style="background-image:url(1.jpg)"></div>
-                                <h2><a href="#">Enjoy the party</a></h2>
+                                <div class="news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_996_491/uploads/media/sag_udghatan_20191201065023.jpg)"></div>
+                                <h2><a href="#">news title</a></h2>
                                 <ul class="category">
                                     <li>sports</li>
                                     <li>entertainment</li>
@@ -192,7 +157,7 @@
                         <!--2-->
                         <div class="column-33">
                             <div class="news">
-                                <div class="news-image" style="background-image:url(1.jpg)"></div>
+                                <div class="news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_996_491/uploads/media/dwarikanath_20191113214239.JPG)"></div>
                                 <h2><a href="#">Enjoy the party</a></h2>
                                 <ul class="category">
                                     <li>sports</li>
@@ -206,7 +171,7 @@
                         <!--3-->
                         <div class="column-33">
                             <div class="news">
-                                <div class="news-image" style="background-image:url(1.jpg)"></div>
+                                <div class="news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_996_491/uploads/media/2019/Jan/Yougmaya_.jpg)"></div>
                                 <h2><a href="#">Enjoy the party</a></h2>
                                 <ul class="category">
                                     <li>sports</li>
@@ -220,7 +185,7 @@
                         <!--4-->
                         <div class="column-33">
                             <div class="news">
-                                <div class="news-image" style="background-image:url(1.jpg)"></div>
+                                <div class="news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_996_491/uploads/media/dwarikanath_20191113214239.JPG)"></div>
                                 <h2><a href="#">Enjoy the party</a></h2>
                                 <ul class="category">
                                     <li>sports</li>
@@ -234,7 +199,7 @@
                         <!--5-->
                         <div class="column-33">
                             <div class="news">
-                                <div class="news-image" style="background-image:url(1.jpg)"></div>
+                                <div class="news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_996_491/uploads/media/70172039_536417853567204_5860113761607614464_n_20190913174433.jpg)"></div>
                                 <h2><a href="#">Enjoy the party</a></h2>
                                 <ul class="category">
                                     <li>sports</li>
@@ -249,7 +214,9 @@
                         <div class="column-33">
                             <div class="news">
                                 <div class="news-image" style="background-image:url(1.jpg)"></div>
-                                <h2><a href="#">Enjoy the party</a></h2>
+                                <h2>
+                                    <a href="#">news title</a>
+                                </h2>
                                 <ul class="category">
                                     <li>sports</li>
                                     <li>entertainment</li>
@@ -277,10 +244,10 @@
                         <div class="sidebar-widget">
                             <div class="sec-title"> Recent News</div>
                             <ul>
-                                <li> <a href="#">Will compel Deuba to ‘correct’ unilateral decision: Prakash Man Singh</a></li>
-                                <li> <a href="#">House panel endorses controversial IT bill despite opposition’s protest</a></li>
-                                <li> <a href="#">Arrest warrant issued against Nepali Congress lawmaker Abhishek Pratap Shah</a></li>
-                                <li> <a href="#">Gautam declines National Assembly membership after Oli-Dahal refuse to budge on constitution amendment</a></li>
+                                <li> <a href="#">‘चेन अफ कमान्ड’ तोडेकाे भन्दै अध्यक्ष दाहाल आक्रोशित</a></li>
+                                <li> <a href="#">स्तरोन्नति र कालोपत्रे गर्न ढिलाइ</a></li>
+                                <li> <a href="#">योग्य शिक्षक नहुँदा ट्युसनको भरमा एसइईको तयारी</a></li>
+                                <li> <a href="#">डोल्पामा घरेलु हिंसाका घटना बढ्दो</a></li>
                             </ul>
                         </div>
                         <div class="sidebar-widget">
@@ -297,11 +264,12 @@
         <!--section1-->
         <div class="news-section">
             <div class="container">
-                <div class="sec-title"> Political</div>
+
                 <div class="row">
+                    <div class="sec-title"> राजनीति</div>
                     <div class="column-20">
                         <div class="news">
-                            <div class="news-image" style="background-image:url(1.jpg)"></div>
+                            <div class="news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_996_491/uploads/media/dwarikanath_20191113214239.JPG)"></div>
                             <h2><a href="#">Enjoy the party</a></h2>
                         </div>
                     </div>
@@ -313,7 +281,7 @@
                     </div>
                     <div class="column-20">
                         <div class="news">
-                            <div class="news-image" style="background-image:url(1.jpg)"></div>
+                            <div class="news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_996_491/uploads/media/Gokarna_Bista_Shram_Mantri_20191024234450.jpg)"></div>
                             <h2><a href="#">Enjoy the party</a></h2>
                         </div>
                     </div>
@@ -325,45 +293,48 @@
                     </div>
                     <div class="column-20">
                         <div class="news">
-                            <div class="news-image" style="background-image:url(1.jpg)"></div>
-                            <h2><a href="#">Enjoy the party</a></h2>
+                            <div class="news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_996_491/uploads/media/70172039_536417853567204_5860113761607614464_n_20190913174433.jpg)"></div>
+                            <h2><a href="#">स्तरोन्नति र कालोपत्रे गर्न ढिलाइ</a></h2>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <!--section2-->
         <div class="news-section">
             <div class="container">
-                <div class="sec-title"> Sports</div>
+
                 <div class="row">
+                    <div class="sec-title"> खेल</div>
                     <div class="column-20">
                         <div class="news">
-                            <div class="news-image" style="background-image:url(1.jpg)"></div>
+                            <div class="news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_996_491/uploads/media/dwarikanath_20191113214239.JPG)"></div>
                             <h2><a href="#">Enjoy the party</a></h2>
                         </div>
                     </div>
                     <div class="column-20">
                         <div class="news">
-                            <div class="news-image" style="background-image:url(1.jpg)"></div>
+                            <div class="news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_460_300/uploads/media/KOju_20200112085840.jpg)"></div>
                             <h2><a href="#">Enjoy the party</a></h2>
                         </div>
                     </div>
                     <div class="column-20">
                         <div class="news">
-                            <div class="news-image" style="background-image:url(1.jpg)"></div>
-                            <h2><a href="#">Enjoy the party</a></h2>
+                            <div class="news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_460_300/uploads/media/Telicom_20200112081033.jpg1.jpg)"></div>
+                            <h2>
+                                <a href="#" डोल्पामा घरेलु हिंसाका घटना बढ्दो</a></h2>
                         </div>
                     </div>
                     <div class="column-20">
                         <div class="news">
-                            <div class="news-image" style="background-image:url(1.jpg)"></div>
-                            <h2><a href="#">Enjoy the party</a></h2>
+                            <div class="news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_460_300/uploads/media/Myarathun_20200112075721.jpg)"></div>
+                            <h2><a href="#">स्तरोन्नति र कालोपत्रे गर्न ढिलाइ</a></h2>
                         </div>
                     </div>
                     <div class="column-20">
                         <div class="news">
-                            <div class="news-image" style="background-image:url(1.jpg)"></div>
+                            <div class="news-image" style="background-image:url(https://nagariknews.nagariknetwork.com/media/cache/nagarik_thumbnail_996_491/uploads/media/70172039_536417853567204_5860113761607614464_n_20190913174433.jpg)"></div>
                             <h2><a href="#">Enjoy the party</a></h2>
                         </div>
                     </div>
@@ -372,59 +343,27 @@
         </div>
     </div>
     <!--footer-->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="column-30">
-                    <!--logo and social-->
-                    <div class="footer-logo">
-                        <img src="https://www.onlinekhabar.com/wp-content/themes/onlinekhabar-2018/img/logoMainWht.png" alt="" class="responsive-image">
-                    </div>
-                    <ul class="footer-social">
-                        <li>
-                            <a href=""><img src="https://img.icons8.com/cute-clipart/40/000000/twitter.png"></a>
-                        </li>
-                        <li>
-                            <a href=""><img src="https://img.icons8.com/cute-clipart/40/000000/instagram-new.png"></a>
-                        </li>
-                        <li>
-                            <a href=""><img src="https://img.icons8.com/nolan/40/google-plus.png"></a>
-                        </li>
-                    </ul>
-                    <address>
-                        koteshwor, kathmandu, nepal
-                    </address>
-
-                </div>
-                <div class="column-20">
-                    <!--category-->
-                    <div class="sec-title"> Category</div>
-                    <ul>
-                        <li> <a href="#">politics</a></li>
-                        <li> <a href="#">business</a></li>
-                        <li> <a href="#">sports</a></li>
-                        <li> <a href="#">entertainment</a></li>
-                    </ul>
-
-                </div>
-                <div class="column-20">
-                    <!--recent news-->
-                    <div class="sec-title"> Recent News</div>
-                    <ul>
-                        <li> <a href="#">Will compel Deuba to ‘correct’ unilateral decision: Prakash Man Singh</a></li>
-                        <li> <a href="#">House panel endorses controversial IT bill despite opposition’s protest</a></li>
-                        <li> <a href="#">Arrest warrant issued against Nepali Congress lawmaker Abhishek Pratap Shah</a></li>
-                        <li> <a href="#">Gautam declines National Assembly membership after Oli-Dahal refuse to budge on constitution amendment</a></li>
-                    </ul>
-
-                </div>
-                <div class="column-30"></div>
-            </div>
-        </div>
-    </footer>
-
-
+    <?php include('footer.php');
+?>
+    </div>
 
 </body>
 
 </html>
+
+<script>
+    window.onscroll = function() {
+        myFunction()
+    };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
